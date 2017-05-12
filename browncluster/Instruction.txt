@@ -1,0 +1,12 @@
+1.
+The wordlist.py is code of the 5 question of Brown clustering.
+After running this script, you will get a list of tuples, each of which contains a word and its frequency
+number in brown corpus. This list of tuples was printed in the vocabulary.txt.
+In addition, i also made the original text to a list of list of words, in which each list of words is a line in the text.
+And i also made a dictionary, in which the key is a word in vacabulary, and the value is another dictionary, in which the
+key is the word that is ajacent to the key word in the text, and the value is the frequency number. I used pickle to save
+these three things and load them in the code for next question - brown_cluster.py.
+2.
+In brown_cluster.py, i used the method in percy liang's paper. But my code has problem - the 'UNK' cluster keeps swallowing
+other clusters, i cannot figure this out, i wish you coud tell me why this may happen if you are able to find the problem.
+Thanks!
